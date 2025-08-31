@@ -6,14 +6,14 @@ Update on 26 Aug 2025
 '''
 
 # Package application imports
-from process_project import Notebook_initiate, Job_processes_loop
+from src.process_project import Notebook_initiate, Job_processes_loop
 
-from .import_csv_data_process import  Manage_process
+from .import_csv_data_process import Manage_process
 
 def Initiate_process(user_project_file, process_file):
     """
     Initiate the process by loading the user project file and the process file.
-    
+
     Parameters:
     - user_project_file: Path to the user project file.
     - process_file: Name of the process file (root path set in user_project_file).

@@ -9,7 +9,7 @@ Last updated on 25 aug 2025
 from os import path, makedirs
 
 # Package application imports
-from support import  Read_csv, Delta_days, Dump_json
+from src.support import  Read_csv, Delta_days, Dump_json
 
 # Default variables
 COMPULSARY_DATA_RECORDS = ['pilot_country','pilot','pilot_site','sample_id','min_depth','max_depth','sample_date',

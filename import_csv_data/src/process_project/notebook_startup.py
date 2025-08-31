@@ -10,7 +10,7 @@ Last undated 7 juni 2025
 from os import path
  
 # Package imports
-from support import Pprint_parameter, Read_json, Get_project_path
+from src.support import Pprint_parameter, Read_json, Get_project_path
 
 def Notebook_initiate(user_project_file, process_file):
 
