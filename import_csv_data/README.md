@@ -4,6 +4,10 @@ Created by Thomas Gumbricht, Stockholm University for the EU funded project [Ai4
 
 Last edits: 26 August 2025
 
+## SUMMARY
+
+This repository consists of a Jupyter notebook front calling a set of Python packages for converting Comma Separated Values (CSV) files to structured json files. This README.md file explains how to use the Jupyter notebook, the Python packages are documented [here](/import_csv_data/html/index.html).
+
 ## Objective
 
 The Jupyter notebook  [AI4SH in-situ data management](https://github.com/xspectrometrics/ai4sh_in-situ_data_management/blob/main/README.md) converts in-situ data from soil sampling campaigns into organised json documents. The input data must be organised as a Comma Separated Values (CSV) files, typically created by first putting the in-situ sampled data together in a spreadsheet and then exporting the spreadsheet as a .csv file.
